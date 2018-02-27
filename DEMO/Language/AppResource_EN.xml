@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resource>
+      <Form>
+           <Name>Form1</Name>
+               <Controls>
+                    <Control name="Form1"  text="LHController Demo(V1.0)" />
+                    <Control name="label1" text="Ethernet communication" />
+                    <Control name="label2" text="Serial Communication" />
+              </Controls>                   
+            <List>
+                        <!--控制器选择-->
+                         <Item1>Voltage Controller</Item1>
+                         <Item1>Current Controller</Item1>
+                        <!--IO设置-->
+                         <Item2>External trigger mode</Item2>
+                         <Item2>Normal IO mode</Item2>
+
+                         <Item3>Alarm output</Item3>
+                         <Item3>User output</Item3>
+
+                         <Item4>High level trigger</Item4>
+                         <Item4>Rising edge trigger</Item4>                        
+                         <Item4>Falling edge trigger</Item4>
+                         <Item4>Ordinary IO</Item4>
+
+                         <Item5>Turn-OFF</Item5>
+                         <Item5>Turn ON</Item5>
+
+
+
+
+           </List>
+                    
+     </Form>
+
+
+     <Form>
+          <Name>Form2</Name>
+              <Controls>
+                   <Control name="Form2" text="LHController Demo(V1.0)" />
+                    <Control name="label1" text="Please Add Controller" />
+              </Controls>
+    </Form>
+
+     <Form>
+          <Name>Form3</Name>
+              <Controls>
+                   <Control name="Form3" text="Add Controller" />
+                   <Control name="label2" text="Controller IP" />
+                   <Control name="label3" text="Controller port" />
+                    <Control name="button1" text="Add" />
+              </Controls>
+    </Form>
+
+     <Form>
+          <Name>Form4</Name>
+              <Controls>
+                   <Control name="Form4" text="Add Controller" />
+                   <Control name="label1" text="Serial Port" />            
+                   <Control name="button1" text="Add" />
+              </Controls>
+    </Form>
+
+     <Form>
+          <Name>Form5</Name>
+              <Controls>         
+                   <Control name="groupBox1" text="Main control panel" />    
+                   <Control name="groupBox5" text="IO port settings" />
+                   <Control name="groupBox2" text="Voltage level setting" />    
+                   <Control name="groupBox4" text="Channel power-up default output setting" />
+                   <Control name="groupBox3" text="Communication parameter setting" />    
+                   <Control name="groupBox8" text="Dimming" />  
+                   <Control name="groupBox6" text="Trigger settings" />  
+
+
+
+
+                   <Control name="label6" text="Dimming" /> 
+                   <Control name="label50" text="Time" /> 
+                   <Control name="label7" text="T" /> 
+                   <Control name="label5" text="N/F" /> 
+                   <Control name="label8" text="ALL" /> 
+
+                   <Control name="label57" text="Enter IO" /> 
+                   <Control name="label21" text="Output IO" /> 
+                   <Control name="label49" text="Channel 1" /> 
+                   <Control name="label43" text="Channel 2" />                    
+                   <Control name="label29" text="Channel 3" /> 
+                   <Control name="label22" text="Channel 4" /> 
+
+                   <Control name="button19" text="Query output IO" /> 
+                   <Control name="button18" text="Set output IO" /> 
+
+                   <Control name="label2" text="Channel 1" /> 
+                   <Control name="label16" text="Channel 2" />                    
+                   <Control name="label3" text="Channel 3" /> 
+                   <Control name="label4" text="Channel 4" /> 
+
+
+                   <Control name="label42" text="Channel 1" /> 
+                   <Control name="label41" text="Channel 2" />                    
+                   <Control name="label40" text="Channel 3" /> 
+                   <Control name="label39" text="Channel 4" /> 
+                   <Control name="label54" text="Channel 5" /> 
+                   <Control name="label53" text="Channel 6" />                    
+                   <Control name="label52" text="Channel 7" /> 
+                   <Control name="label51" text="Channel 8" /> 
+ 
+                   <Control name="label44" text="Controller IP" /> 
+                   <Control name="label45" text="Controller gateway" />                    
+                   <Control name="label46" text="Controller subnet mask" /> 
+                   <Control name="label47" text="Controller port number" /> 
+                   <Control name="label48" text="Controller Baud rate" /> 
+
+
+
+              </Controls>
+    </Form>
+
+ <Form>
+          <Name>Form7</Name>
+              <Controls>
+                     <Control name="groupBox1" text="Main control panel" />  
+                     <Control name="groupBox6" text="Constant current constant voltage mode switching" />   
+                     <Control name="groupBox10" text="General operation" />    
+                     <Control name="groupBox11" text="PWM Adjust" />  
+                     <Control name="groupBox12" text="Trigger settings" />  
+
+
+
+                    <Control name="groupBox3" text="Communication settings" />  
+                    <Control name="label44" text="Controller IP" /> 
+                    <Control name="label45" text="Controller gateway" /> 
+                    <Control name="label46" text="Controller subnet mask" /> 
+                    <Control name="label47" text="Controller port number" /> 
+                    <Control name="label48" text="Controller port number" /> 
+
+
+                    <Control name="groupBox4" text="The channel is powered on by default" />  
+                    <Control name="label42" text="Channel 1" /> 
+                    <Control name="label41" text="Channel 2" /> 
+                    <Control name="label40" text="Channel 3" /> 
+                    <Control name="label39" text="Channel 4" /> 
+                    <Control name="label54" text="Channel 5" /> 
+                    <Control name="label53" text="Channel 6" /> 
+                    <Control name="label52" text="Channel 7" /> 
+                    <Control name="label51" text="Channel 8" /> 
+
+                    <Control name="groupBox9" text="Input and output settings" />  
+                    <Control name="groupBox5" text="Enter IO settings" /> 
+                    <Control name="groupBox2" text="Output IO settings" /> 
+                    <Control name="label49" text="Channel 1" /> 
+                    <Control name="label43" text="Channel 2" /> 
+                    <Control name="label29" text="Channel 3" /> 
+                    <Control name="label22" text="Channel 4" /> 
+
+
+                    <Control name="label12" text="Channel 1" /> 
+                    <Control name="label21" text="Channel 2" /> 
+                    <Control name="label11" text="Channel 3" /> 
+                    <Control name="label10" text="Channel 4" /> 
+
+                   <Control name="button19" text="Inquire" />
+                   <Control name="button18" text="Set up" />
+
+
+           
+              </Controls>
+              <List>
+                         <Item1>current output mode</Item1>
+                         <Item1>voltage output mode</Item1>
+
+                         <Item2>turn-off</Item2>
+                         <Item2>turn-on</Item2>
+
+                         <Item3>Low level trigger</Item3>
+                         <Item3>Falling edge triggers</Item3>                 
+                         <Item3>Rising edge triggered</Item3>
+                         <Item3>Normal IO input</Item3> 
+
+                         <Item4>Load disconnection alarm</Item4>
+                         <Item4>Circuit out of control alarm</Item4>                 
+                         <Item4>Work done signal</Item4>
+                         <Item4>Normal output IO</Item4> 
+           </List>
+    </Form>
+
+
+</Resource>
+

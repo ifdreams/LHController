@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resource>
+  <Form>
+    <Name>Form1</Name>
+          <Controls>
+                    <Control name="Form1" text="灵猴控制器(V1.0)" />
+                    <Control name="label1" text="网口通讯" />
+                    <Control name="label2" text="串口通讯" />
+          </Controls>
+
+
+           <List>
+                         <Item1>电压型控制器</Item1>
+                         <Item1>电流型控制器</Item1>
+
+                        <!--IO设置-->
+                         <Item2>外部触发模式</Item2>
+                         <Item2>普通IO模式</Item2>
+
+                         <Item3>报警输出</Item3>
+                         <Item3>用户输出</Item3>
+
+                         <Item4>高电平触发</Item4>
+                         <Item4>上升沿触发</Item4>                        
+                         <Item4>下降沿触发</Item4>
+                         <Item4>普通IO</Item4>
+
+
+                         <Item5>关闭</Item5>
+                         <Item5>打开</Item5>
+
+           </List>
+
+
+
+  </Form>
+  <Form>
+    <Name>Form2</Name>
+    <Controls>
+          <Control name="Form2" text="灵猴控制器(V1.0)" />
+          <Control name="label1" text="请添加控制器" />
+    </Controls>
+  </Form>
+
+     <Form>
+          <Name>Form3</Name>
+              <Controls>
+                   <Control name="Form3" text="添加控制器" />
+                   <Control name="label2" text="控制器IP" />
+                   <Control name="label3" text="控制器端口" />
+                    <Control name="button1" text="添加" />
+              </Controls>
+    </Form>
+
+
+     <Form>
+          <Name>Form4</Name>
+              <Controls>
+                   <Control name="Form4" text="添加控制器" />
+                   <Control name="label1" text="串口号" />            
+                    <Control name="button1" text="添加" />
+              </Controls>
+    </Form>
+
+     <Form>
+          <Name>Form5</Name>
+              <Controls>         
+                   <Control name="groupBox1" text="主控制面板" />    
+                   <Control name="groupBox5" text="IO端口设置" />
+                   <Control name="groupBox2" text="电压等级设置" />    
+                   <Control name="groupBox4" text="通道上电默认输出设置" />
+                   <Control name="groupBox3" text="通讯参数设置" />    
+                   <Control name="groupBox8" text="亮度调节" />  
+                   <Control name="groupBox6" text="触发设置" />  
+
+                   <Control name="label6" text="亮度" /> 
+                   <Control name="label50" text="时间" /> 
+                   <Control name="label7" text="触发" /> 
+                   <Control name="label5" text="开关" /> 
+                   <Control name="label8" text="混合" /> 
+
+
+                   <Control name="label57" text="输入IO" /> 
+                   <Control name="label21" text="输出IO" /> 
+                   <Control name="label49" text="通道1" /> 
+                   <Control name="label43" text="通道2" />                    
+                   <Control name="label29" text="通道3" /> 
+                   <Control name="label22" text="通道4" /> 
+                   <Control name="button19" text="查询输入IO" /> 
+                   <Control name="button18" text="设置输出IO" /> 
+            
+                   <Control name="label2" text="通道1" /> 
+                   <Control name="label16" text="通道2" />                    
+                   <Control name="label3" text="通道3" /> 
+                   <Control name="label4" text="通道4" /> 
+
+                   <Control name="label42" text="通道1" /> 
+                   <Control name="label41" text="通道2" />                    
+                   <Control name="label40" text="通道3" /> 
+                   <Control name="label39" text="通道4" /> 
+                   <Control name="label54" text="通道5" /> 
+                   <Control name="label53" text="通道6" />                    
+                   <Control name="label52" text="通道7" /> 
+                   <Control name="label51" text="通道8" /> 
+
+                   <Control name="label44" text="控制器IP" /> 
+                   <Control name="label45" text="控制器网关" />                    
+                   <Control name="label46" text="控制器子网掩码" /> 
+                   <Control name="label47" text="控制器端口号" /> 
+                   <Control name="label48" text="控制器波特率" /> 
+              </Controls>
+    </Form>
+
+     <Form>
+          <Name>Form7</Name>
+              <Controls>
+                     <Control name="groupBox1" text="主控制面板" />  
+                     <Control name="groupBox6" text="恒流恒压模式切换" />   
+                     <Control name="groupBox10" text="通用操作" />    
+                     <Control name="groupBox11" text="PWM调节" />  
+                     <Control name="groupBox12" text="触发设置" />  
+
+
+
+                    <Control name="groupBox3" text="通讯设置" />  
+                    <Control name="label44" text="控制器IP" /> 
+                    <Control name="label45" text="控制器网关" /> 
+                    <Control name="label46" text="控制器子网掩码" /> 
+                    <Control name="label47" text="控制器端口号" /> 
+                    <Control name="label48" text="控制器波特率" /> 
+
+
+                    <Control name="groupBox4" text="通道上电默认输出" />  
+                    <Control name="label42" text="通道1" /> 
+                    <Control name="label41" text="通道2" /> 
+                    <Control name="label40" text="通道3" /> 
+                    <Control name="label39" text="通道4" /> 
+                    <Control name="label54" text="通道5" /> 
+                    <Control name="label53" text="通道6" /> 
+                    <Control name="label52" text="通道7" /> 
+                    <Control name="label51" text="通道8" /> 
+
+                    <Control name="groupBox9" text="输入输出设置" />  
+                    <Control name="groupBox5" text="输入IO设置" /> 
+                    <Control name="groupBox2" text="输出IO设置" /> 
+                    <Control name="label49" text="通道1" /> 
+                    <Control name="label43" text="通道2" /> 
+                    <Control name="label29" text="通道3" /> 
+                    <Control name="label22" text="通道4" /> 
+
+
+                    <Control name="label12" text="通道1" /> 
+                    <Control name="label21" text="通道2" /> 
+                    <Control name="label11" text="通道3" /> 
+                    <Control name="label10" text="通道4" /> 
+
+                   <Control name="button19" text="添加" />
+                   <Control name="button18" text="设置" />
+
+              </Controls>
+               <List>
+                         <Item1>恒流输出模式</Item1>
+                         <Item1>恒压输出模式</Item1>
+
+                         <Item2>关闭</Item2>
+                         <Item2>打开</Item2>
+
+                         <Item3>低电平触发</Item3>
+                         <Item3>下降沿触发</Item3>                 
+                         <Item3>上升沿触发</Item3>
+                         <Item3>普通IO输入</Item3> 
+
+                         <Item4>负载断路报警</Item4>
+                         <Item4>电路失控报警</Item4>                 
+                         <Item4>工作完成信号</Item4>
+                         <Item4>普通输出IO</Item4> 
+
+
+             </List>
+    </Form>
+
+</Resource>
